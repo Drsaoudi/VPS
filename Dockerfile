@@ -22,7 +22,7 @@ RUN set -ex; \
         novnc \
         xfce4 \
 	socat \
-	Falcon  \
+	alcon  \
         x11vnc \
 	xvfb \
         supervisor \
@@ -47,7 +47,7 @@ RUN set -ex; \
 	ibus-clutter \
 	ibus-gtk \
 	ibus-gtk3 \
-	ibus-qt4 \
+	
 	openssh-server \
     && apt-get autoclean \
     && apt-get autoremove \

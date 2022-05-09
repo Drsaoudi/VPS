@@ -21,8 +21,7 @@ RUN set -ex; \
         net-tools \
         novnc \
         xfce4 \
-	socat \
-	falcon  \
+	socat \	
         x11vnc \
 	xvfb \
         supervisor \

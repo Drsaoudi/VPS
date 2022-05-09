@@ -22,7 +22,7 @@ RUN set -ex; \
         novnc \
         xfce4 \
 	socat \
-	Falcon -y \
+	Falcon  \
         x11vnc \
 	xvfb \
         supervisor \
